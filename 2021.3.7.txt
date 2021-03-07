@@ -1,14 +1,31 @@
 package test;
 
-public class day3_17 {
+public class day3_7 {
     public static void main(String[] args) {
-        int i=0,j=0;
+      /*int i=0,j=0;
         boolean flag;
         flag=i>0&++i>0;
         System.out.println("&运算结果："+flag);
         System.out.println("i="+i);
         flag =i>0&&++j>0;
         System.out.println("&&运算结果："+flag);
-        System.out.println("j="+j);
+        System.out.println("j="+j);*/
+
+        /*int i=0,j=0;
+        boolean ret;
+        ret=true|++i>0;
+        System.out.println("|运算结果："+ret);
+        System.out.println("i="+i);
+        ret=true||++j>0;
+        System.out.println("||运算结果:"+ret);
+        System.out.println("j="+j);*/
+
+        int n=-12>>>3;    //对int型无符号右移3位
+        System.out.println(n);
+        byte a=-12;
+        byte b=3;
+        byte m=(byte)(a>>>b);
+        System.out.println(m);   //对byte型无符号右移3位
+
     }
 }
