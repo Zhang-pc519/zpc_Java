@@ -1,0 +1,14 @@
+package test;
+
+public class day3_17 {
+    public static void main(String[] args) {
+        int i=0,j=0;
+        boolean flag;
+        flag=i>0&++i>0;
+        System.out.println("&运算结果："+flag);
+        System.out.println("i="+i);
+        flag =i>0&&++j>0;
+        System.out.println("&&运算结果："+flag);
+        System.out.println("j="+j);
+    }
+}
