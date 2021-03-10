@@ -1,0 +1,60 @@
+package test;
+
+public class day3_10 {
+    public static void main(String[] args) {
+        /*//自定义方法的使用
+        System.out.println("床前明月光");
+        printsign();
+        System.out.println("疑是地上霜");
+        printsign();
+        System.out.println("举头望明月");
+        printsign();
+        System.out.println("低头思故乡");
+        printsign();
+    }
+    public static void printsign(){
+        for(int i=1;i<=10;i++){
+            System.out.print("-");
+        }
+        System.out.println();*/
+
+        /*//void和return的用法
+        int score = 78;
+        //调用void方法
+        printGrade(score);
+        //声明变量接受方法的返回值
+        char ret = getGrade(score);
+        System.out.println(ret);
+    }
+    // void 方法
+    public static void printGrade(double score) {
+        if (score < 0 || score > 100) {
+            System.out.println("成绩输入错误!");
+            return;
+        }
+        if (score >= 90.0) {
+            System.out.println("A");
+        } else if (score >= 80.0) {
+            System.out.println("B");
+        } else if (score >= 70.0) {
+            System.out.println("C");
+        } else if (score >= 60.0) {
+            System.out.println("D");
+        } else {
+            System.out.println("E");
+        }
+    }
+
+    //带返回值的方法
+    public static char getGrade(double score) {
+        if (score >= 90.0) {
+            return 'A';
+        } else if (score >= 80.0) {
+            return 'B';
+        } else if (score >= 70.0) {
+            return 'C';
+        } else if (score >= 60.0) {
+            return 'D';
+        } else {
+            return 'E';
+        }*/
