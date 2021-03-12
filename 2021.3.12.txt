@@ -1,0 +1,41 @@
+方法的多参使用
+        //案例一
+        /*System.out.println("床前明月光");
+        printSign(5, '-');
+        System.out.println("疑是地上霜");
+        printSign(10, '#');
+        System.out.println("举头望明月");
+        printSign(15, '*');
+        System.out.println("低头思故乡");
+        printSign(20, '+');
+    }
+    public static void printSign(int count, char sign) {
+        for (int i = 1; i <= count; i++) {
+            System.out.print(sign);
+        }
+        System.out.println();*/
+
+        //案例二、交换两个整数
+       /* int n=5,m=2;
+        System.out.println("before main\t:n=" + n + ",m=" + m);
+        swap(n,m);
+        System.out.println("end main\t:n=" + n + ",m=" + m);
+    }
+    //交换两个数
+    public static void swap(int n,int m){
+        System.out.println("before swap\t:n=" + n + ",m=" + m);
+        int tmp=n;
+        n=m;
+        m=tmp;
+        System.out.println("end swap\t:n=" + n + ",m=" + m);*/
+
+       /* //方法递归解决阶乘问题
+        int result=factorial(5);
+        System.out.println(result);
+    }
+    //计算n的阶乘
+    public static int factorial(int n){
+        if(n==1){
+            return 1;
+        }
+        return n * factorial(n-1);*/
