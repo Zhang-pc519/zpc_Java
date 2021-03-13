@@ -1,0 +1,51 @@
+ //方法的重载案例
+        //调用max（int，int）方法
+        System.out.println("3 和 8 的最大值：" + max(3, 8));
+        //调用max（double,double）方法
+        System.out.println("3.0 和 8.0 的最大值：" + max(3.0, 8.0));
+        //调用max（double,double,double）方法
+        System.out.println("3.0 、5.0 和 8.0 的最大值：" + max(3.0, 5.0, 8.0));
+        //调用max（int,double）方法
+        System.out.println("3 和 8.0 的最大值：" + max(3, 8.0));
+    }
+    //返回两个整数的最大值
+    public static int max(int num1,int num2){
+        int result;
+        if(num1>num2)
+            result=num1;
+        else
+            result=num2;
+        return result;
+    }
+    //返回两个浮点数的最大值
+    public static double max(double num1,double num2){
+        double result;
+        if(num1>num2)
+            result=num1;
+        else
+            result=num2;
+        return result;
+    }
+    //返回三个浮点数的最大值
+    public static double max(double num1,double num2,double num3){
+        return max(max(num1,num2),num3);
+
+         */
+
+       /*
+        //歧义调用案例
+        System.out.println(max(3,8));
+    }
+    //返回整数和浮点数的最大值
+    public static double max(int num1,double num2){
+        if(num1>num2)
+            return  num1;
+        else
+            return num2;
+    }
+    //返回浮点数和整数的最大值
+    public static double max(double num1,int num2){
+        if(num1>num2)
+            return num1;
+        else
+            return num2;
